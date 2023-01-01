@@ -88,7 +88,9 @@ const hisObj: Person={
     age: "23"
 };
 
+//Tuples 
+let numbers: readonly[number,number] = [1,2];
 
-let numbers: [number,number] = [1,2,3,4,5];
-numbers.push(30);
+numbers=[5555,5]
+//numbers.push(30);
 console.log(numbers);
