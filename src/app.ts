@@ -47,3 +47,22 @@ else{
 //git add -A && git commit -m "message" && git push all at once 
 //git config --global alias.cmp '!f() { git add -A && git commit -m "$@" && git push; }; f'
 //git cmp " message";
+
+class Queue<T>{
+    data: Array<T> = [];
+
+    push(item: T){
+        this.data.push(item);
+    }
+
+    pop(): T | undefined{
+        return this.data.shift();
+    }
+}
+
+const firstObj = new Queue();
+
+firstObj.push(1);
+firstObj.push("2");
+
+console.log(firstObj);

@@ -32,3 +32,18 @@ const map = new Map();
 //git add -A && git commit -m "message" && git push all at once 
 //git config --global alias.cmp '!f() { git add -A && git commit -m "$@" && git push; }; f'
 //git cmp " message";
+class Queue {
+    constructor() {
+        this.data = [];
+    }
+    push(item) {
+        this.data.push(item);
+    }
+    pop() {
+        return this.data.shift();
+    }
+}
+const firstObj = new Queue();
+firstObj.push(1);
+firstObj.push("2");
+console.log(firstObj);
