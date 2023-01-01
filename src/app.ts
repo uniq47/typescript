@@ -87,3 +87,8 @@ const hisObj: Person={
     firstName: "uniq",
     age: "23"
 };
+
+
+let numbers: [number,number] = [1,2,3,4,5];
+numbers.push(30);
+console.log(numbers);
