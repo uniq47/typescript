@@ -25,6 +25,8 @@ class Queue {
 //else it will accept any type , queue<string>,
 // inside the class Queue<string> we pass string so the T is replaced by string
 // we can;t pass num or biject or else it will give error
+//const firstObj: Queue<string>= new Queue();
+// or we can write like this 
 const firstObj = new Queue();
 firstObj.push("string");
 console.log(firstObj);
