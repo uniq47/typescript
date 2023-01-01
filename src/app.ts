@@ -66,3 +66,24 @@ firstObj.push(1);
 firstObj.push("2");
 
 console.log(firstObj);
+
+
+//type alias // lastname is optional property so we use ? 
+//type Person = {firstName: string;age: string ; lastName?: string | undefined};
+//we can write interface so name fof the interface and this is sdame as type
+interface Person{
+    firstName: string;
+    age: string ; 
+    lastName?: string | undefined};
+
+
+const obj: Person={
+    firstName: "uniq",
+    age: "23"
+};
+
+obj.lastName="Sap"
+const hisObj: Person={
+    firstName: "uniq",
+    age: "23"
+};

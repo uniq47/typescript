@@ -47,3 +47,13 @@ const firstObj = new Queue();
 firstObj.push(1);
 firstObj.push("2");
 console.log(firstObj);
+;
+const obj = {
+    firstName: "uniq",
+    age: "23"
+};
+obj.lastName = "Sap";
+const hisObj = {
+    firstName: "uniq",
+    age: "23"
+};
